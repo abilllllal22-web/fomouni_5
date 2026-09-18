@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Системный стек шрифтов — без внешних запросов к Google Fonts (надёжная
+     сборка офлайн/в CI). Display чуть плотнее по трекингу и всегда жирный —
+     этим и держится "уверенная типографика" ключевых решений. */
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif;
+
+  /* v4 — светлая тема (по умолчанию для тех, кто явно переключился)
+     v6 — ink-950 приведён к настоящему чёрному (#000000), как основной
+     цвет заголовков/текста в светлой теме, по прямому запросу. */
+  --color-canvas: 247 247 251;
+  --color-canvas-card: 255 255 255;
+  --color-canvas-muted: 238 239 246;
+  --color-line: 227 228 240;
+  --color-line-strong: 202 204 228;
+  --color-ink-950: 0 0 0;
+  --color-ink-900: 20 20 24;
+  --color-ink-600text: 90 90 100;
+}
+
+/* Тёмно-синяя тема — основной, "фирменный" вид продукта (по умолчанию,
+   см. инлайн-скрипт в layout.tsx, который выставляет data-theme ДО отрисовки,
+   чтобы не было мигания светлой темой). Токены canvas/ink/line читаются как
+   CSS-переменные (см. tailwind.config.ts) — переключение не требует
+   переписывания classNames по компонентам. */
+:root[data-theme="dark"] {
+  --color-canvas: 8 11 22;
+  --color-canvas-card: 17 23 43;
+  --color-canvas-muted: 24 32 58;
+  --color-line: 38 47 79;
+  --color-line-strong: 55 66 104;
+  --color-ink-950: 244 246 252;
+  --color-ink-900: 202 207 228;
+  --color-ink-600text: 140 148 179;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-canvas text-ink-900 font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display text-ink-950 tracking-tight;
+}
+
+/* Единый стиль карточек — переиспользуется на этапах рекомендаций,
+   сравнения и roadmap. Меняйте здесь, чтобы поменять всю систему разом. */
+.fu-card {
+  @apply bg-canvas-card border border-line rounded-card shadow-card p-5 sm:p-6;
+}
+
+.fu-card-interactive {
+  @apply fu-card transition-shadow duration-200 hover:shadow-cardHover;
+}
+
+.fu-btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-pill bg-gradient-to-r from-brand-600 to-brand-500 px-6 py-3.5
+    text-[15px] font-semibold text-white shadow-pop transition-all duration-150
+    hover:from-brand-700 hover:to-brand-600 active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none;
+}
+
+.fu-btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-pill border border-line-strong bg-canvas-card px-6 py-3.5
+    text-[15px] font-semibold text-ink-900 transition-colors duration-150
+    hover:border-brand-400 hover:text-brand-700 active:scale-[0.98] disabled:opacity-40 disabled:pointer-events-none;
+}
+
+.fu-btn-ghost {
+  @apply inline-flex items-center justify-center gap-1.5 rounded-pill px-4 py-2.5
+    text-sm font-medium text-ink600text transition-colors duration-150 hover:bg-canvas-muted hover:text-ink-900;
+}
+
+.fu-chip {
+  @apply inline-flex items-center gap-1 rounded-pill border border-line bg-canvas-muted px-3 py-1 text-xs font-medium text-ink600text;
+}
+
+/* v6 — уменьшено и переведено с контрастного жёлтого на приглушённые
+   цвета сайта (бренд-фиолетовый на нейтральном фоне), по прямому запросу:
+   "не контрастные и в цветах сайта", "уменьши немного эту кнопку". */
+.fu-tag-demo {
+  @apply inline-flex items-center gap-1 rounded-pill bg-canvas-muted border border-line px-2 py-[3px] text-[10px] font-semibold uppercase tracking-wide text-ink600text;
+}
+
+.fu-skeleton-line {
+  @apply h-3 rounded-full bg-canvas-muted animate-pulseSoft;
+}
+
+.fu-focus-ring {
+  @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 focus-visible:ring-offset-canvas;
+}
+
+/* --- v2: монограммы, tier-бейджи, тёмный hero со скайлайном --------------- */
+
+.fu-monogram {
+  @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-800
+    font-display text-sm font-extrabold text-white shadow-sm;
+}
+
+/* v7: контейнер для настоящего лого вуза — нейтральный (белый) фон + паддинг,
+   а не цветной градиент монограммы, т.к. лого приходят с очень разным
+   соотношением сторон и не должны обрезаться/заливаться цветом бренда. */
+.fu-monogram-logo {
+  @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-line bg-white p-1.5 shadow-sm;
+}
+
+/* v7: контейнер для реального логотипа вуза (в отличие от .fu-monogram —
+   нейтральный, не цветной, чтобы не искажать официальные цвета логотипа). */
+.fu-monogram-logo {
+  @apply flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-line bg-white p-1.5 shadow-sm;
+}
+
+.fu-badge-tier {
+  @apply inline-flex items-center gap-1 rounded-pill px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide;
+}
+.fu-badge-tier-top {
+  @apply fu-badge-tier bg-brand-600 text-white;
+}
+.fu-badge-tier-high {
+  @apply fu-badge-tier bg-emerald-100 text-emerald-800;
+}
+.fu-badge-tier-good {
+  @apply fu-badge-tier bg-amber-100 text-amber-800;
+}
+.fu-badge-tier-review {
+  @apply fu-badge-tier bg-canvas-muted text-ink600text;
+}
+
+/* Всегда тёмная секция (hero, счёт-плашка) — не зависит от data-theme,
+   поэтому берёт фиксированный hex, а не theme-реактивный ink-950. */
+.fu-hero-dark {
+  @apply relative overflow-hidden bg-[#0b0f1f];
+  background-image: radial-gradient(ellipse 120% 80% at 50% -10%, rgba(181, 126, 209, 0.35), transparent 60%),
+    linear-gradient(180deg, #0b0f1f 0%, #14101d 60%, #0b0f1f 100%);
+}
+
+.fu-glow-dot {
+  @apply absolute h-64 w-64 rounded-full bg-brand-500/30 blur-3xl;
+}
+
+.fu-score-pill {
+  @apply rounded-full bg-[#0b0f1f] px-2.5 py-1 text-xs font-bold text-white;
+}
+
+/* v4 — премиальная карточка с градиентной окантовкой (личный кабинет,
+   ключевые CTA) и переключатели темы/языка в хедере. */
+.fu-card-premium {
+  @apply relative overflow-hidden rounded-card border border-line bg-canvas-card p-5 shadow-card sm:p-6;
+}
+.fu-card-premium::before {
+  content: "";
+  @apply pointer-events-none absolute inset-0 opacity-[0.07];
+  background-image: radial-gradient(ellipse 140% 100% at 0% 0%, rgb(162 90 198), transparent 60%);
+}
+
+.fu-icon-btn {
+  @apply fu-focus-ring flex h-9 w-9 items-center justify-center rounded-full border border-line-strong bg-canvas-card text-ink-900 transition-colors hover:border-brand-400 hover:text-brand-700;
+}
+
+.fu-gradient-text {
+  @apply bg-gradient-to-r from-brand-300 via-brand-200 to-white bg-clip-text text-transparent;
+}
+
+/* v5 — логотип FomoUni: два PNG-варианта (тёмный/белый), CSS переключает
+   видимость по data-theme на <html>, без мигания при загрузке (тема уже
+   выставлена инлайн-скриптом в layout.tsx до отрисовки). Используется там,
+   где логотип лежит на theme-реактивном фоне (шапка/футер/сайдбар);
+   фиксированно-тёмный hero использует только белый вариант напрямую. */
+.fu-logo-for-light-theme {
+  display: block;
+}
+.fu-logo-for-dark-theme {
+  display: none;
+}
+:root[data-theme="dark"] .fu-logo-for-light-theme {
+  display: none;
+}
+:root[data-theme="dark"] .fu-logo-for-dark-theme {
+  display: block;
+}
+
+/* v5 — лёгкий тематический паттерн на задний фон секций (шапки/книги/глобус).
+   Низкая прозрачность, чисто декоративный слой поверх canvas. */
+.fu-bg-pattern {
+  @apply pointer-events-none absolute inset-0 overflow-hidden;
+}
+
+/* v6 — при наведении на панель выбора анкеты (карточки вариантов ответа):
+   в светлой теме — чёрный текст на белом фоне; в тёмной теме поведение не
+   меняется (используются обычные hover-классы Tailwind на компоненте). */
+:root[data-theme="light"] .fu-option-btn:hover {
+  background-color: #ffffff;
+  border-color: #000000;
+}
+:root[data-theme="light"] .fu-option-btn:hover .fu-option-label,
+:root[data-theme="light"] .fu-option-btn:hover .fu-option-hint {
+  color: #000000;
+}

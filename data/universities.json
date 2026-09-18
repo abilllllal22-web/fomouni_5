@@ -1,0 +1,3302 @@
+{
+  "meta": {
+    "audience": "Абитуриенты бакалавриата по направлению IT / инженерия — глобальный охват стран, из которых реально поступают казахстанские выпускники",
+    "isDemoDataset": true,
+    "disclaimer": "Все цифры (стоимость, дедлайны, проходные баллы, процент поступления, число студентов) — демонстрационные ориентиры для хакатона, собранные на основе открытых источников и общих оценок, а не выгруженные официальные данные. Перед подачей документов проверяйте актуальные условия на официальном сайте вуза.",
+    "currency": "USD",
+    "intakeYear": "2027/2028",
+    "countriesCovered": [
+      "Казахстан",
+      "США",
+      "Великобритания",
+      "Канада",
+      "Германия",
+      "Нидерланды",
+      "Сингапур",
+      "Южная Корея",
+      "Япония",
+      "Австралия",
+      "ОАЭ",
+      "Турция",
+      "Франция",
+      "Швейцария",
+      "Гонконг",
+      "Китай",
+      "Малайзия",
+      "Швеция",
+      "Италия",
+      "Чехия"
+    ]
+  },
+  "universities": [
+    {
+      "id": "nu-cs",
+      "university": "Nazarbayev University",
+      "program": "Computer Science",
+      "faculty": "School of Engineering and Digital Sciences",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Казахстан",
+      "city": "Астана",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 7000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Собственные гранты NU покрывают до 100% при высоком конкурсном балле",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1350
+        },
+        {
+          "type": "IB",
+          "minScore": 32
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 60,
+      "applicationDeadline": "2027-02-10",
+      "documentsDeadline": "2027-01-20",
+      "website": "https://nu.edu.kz",
+      "isDemoData": true,
+      "highlights": [
+        "Английский язык обучения",
+        "Аккредитация ABET",
+        "Сильная исследовательская база"
+      ],
+      "acceptanceRatePercent": 24,
+      "studentPopulation": 6500,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Data Science",
+        "Электротехника",
+        "Робототехника",
+        "Machine Learning",
+        "Кибербезопасность",
+        "Game Development",
+        "Computer Science",
+        "IT-менеджмент",
+        "UX/UI Design & HCI"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза (NU Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-02-10"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Nazarbayev University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Собственные гранты NU покрывают до 100% при высоком конкурсном балле"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "aitu-se",
+      "university": "Astana IT University",
+      "program": "Software Engineering",
+      "faculty": "Факультет информационных технологий",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Казахстан",
+      "city": "Астана",
+      "languageOfInstruction": [
+        "Казахский",
+        "Русский",
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 3100,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Государственные образовательные гранты по итогам ЕНТ",
+      "academicExams": [
+        {
+          "type": "ENT",
+          "minScore": 85
+        }
+      ],
+      "ieltsMin": null,
+      "toeflMin": null,
+      "applicationDeadline": "2027-07-25",
+      "documentsDeadline": "2027-06-20",
+      "website": "https://astanait.edu.kz",
+      "isDemoData": true,
+      "highlights": [
+        "Специализация в геймдеве и мобильной разработке",
+        "Партнёрства с IT-компаниями",
+        "Кампус в IT-хабе Astana Hub"
+      ],
+      "acceptanceRatePercent": 55,
+      "studentPopulation": 5000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Информационные системы",
+        "Кибербезопасность",
+        "Геймдизайн",
+        "Computer Science",
+        "IT-менеджмент",
+        "Bioinformatics",
+        "Data Science",
+        "UX/UI Design & HCI",
+        "Machine Learning"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза + ЕНТ/Enrollment",
+      "applicationRounds": [
+        {
+          "type": "Rolling",
+          "deadline": "2027-07-25",
+          "note": "Приём по мере поступления заявок / результатов вступительных экзаменов"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Astana IT University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Государственные образовательные гранты по итогам ЕНТ"
+        }
+      ]
+    },
+    {
+      "id": "kbtu-cs",
+      "university": "KBTU (Казахстанско-Британский технический университет)",
+      "program": "Computer Science",
+      "faculty": "Школа информационных технологий и инженерии",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Казахстан",
+      "city": "Алматы",
+      "languageOfInstruction": [
+        "Английский",
+        "Русский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 5200,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Гранты KBTU для абитуриентов с высоким баллом ЕНТ/IELTS",
+      "academicExams": [
+        {
+          "type": "ENT",
+          "minScore": 90
+        }
+      ],
+      "ieltsMin": 5.5,
+      "toeflMin": 55,
+      "applicationDeadline": "2027-07-20",
+      "documentsDeadline": "2027-06-25",
+      "website": "https://kbtu.edu.kz",
+      "isDemoData": true,
+      "highlights": [
+        "Двудипломные программы",
+        "Связи с IT-сектором",
+        "Кампус в центре Алматы"
+      ],
+      "acceptanceRatePercent": 48,
+      "studentPopulation": 7000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Информационные системы",
+        "Нефтегазовая инженерия",
+        "Бизнес-информатика",
+        "Компьютерные сети",
+        "Мобильная разработка",
+        "Cloud Computing",
+        "Game Development",
+        "Computer Science",
+        "Artificial Intelligence"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза + ЕНТ/Enrollment",
+      "applicationRounds": [
+        {
+          "type": "Rolling",
+          "deadline": "2027-07-20",
+          "note": "Приём по мере поступления заявок / результатов вступительных экзаменов"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант KBTU (Казахстанско-Британский технический университет)",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Гранты KBTU для абитуриентов с высоким баллом ЕНТ/IELTS"
+        }
+      ]
+    },
+    {
+      "id": "satbayev-is",
+      "university": "Satbayev University",
+      "program": "Информационные системы",
+      "faculty": "Институт автоматики и информационных технологий",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Казахстан",
+      "city": "Алматы",
+      "languageOfInstruction": [
+        "Казахский",
+        "Русский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 2400,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Много государственных грантов на технические направления",
+      "academicExams": [
+        {
+          "type": "ENT",
+          "minScore": 75
+        }
+      ],
+      "ieltsMin": null,
+      "toeflMin": null,
+      "applicationDeadline": "2027-07-25",
+      "documentsDeadline": "2027-06-20",
+      "website": "https://satbayev.university",
+      "isDemoData": true,
+      "highlights": [
+        "Старейший технический вуз страны",
+        "Широкий выбор инженерных направлений",
+        "Доступный бюджет"
+      ],
+      "acceptanceRatePercent": 65,
+      "studentPopulation": 12000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Автоматизация",
+        "Электроэнергетика",
+        "Горное дело",
+        "Материаловедение",
+        "Мехатроника",
+        "Artificial Intelligence",
+        "Нефтегазовая инженерия",
+        "Bioinformatics",
+        "Computer Science"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза + ЕНТ/Enrollment",
+      "applicationRounds": [
+        {
+          "type": "Rolling",
+          "deadline": "2027-07-25",
+          "note": "Приём по мере поступления заявок / результатов вступительных экзаменов"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Satbayev University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Много государственных грантов на технические направления"
+        }
+      ]
+    },
+    {
+      "id": "mit-cs",
+      "university": "Massachusetts Institute of Technology",
+      "program": "Computer Science (6-3)",
+      "faculty": "School of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Кембридж, Массачусетс",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 61000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Need-based финансовая помощь — MIT покрывает 100% доказанной потребности",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1540
+        },
+        {
+          "type": "AP",
+          "minScore": 4.5
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-05",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://mit.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Один из мировых лидеров по CS",
+        "Огромная исследовательская экосистема",
+        "Крайне высокий конкурс"
+      ],
+      "prestigeTag": "Топ мирового уровня (демо-ориентир)",
+      "acceptanceRatePercent": 4,
+      "studentPopulation": 4600,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Math with CS",
+        "AI & Decision Making",
+        "Мобильная разработка",
+        "IT-менеджмент",
+        "Bioinformatics",
+        "Game Development",
+        "Компьютерные сети",
+        "Computer Engineering"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Common App / MIT Application",
+      "applicationRounds": [
+        {
+          "type": "EA",
+          "deadline": "2026-11-01",
+          "note": "Необязывающий ранний раунд — популярен среди международных абитуриентов"
+        },
+        {
+          "type": "RD",
+          "deadline": "2027-01-05"
+        }
+      ],
+      "testPolicy": "required",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Massachusetts Institute of Technology",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Need-based финансовая помощь — MIT покрывает 100% доказанной потребности"
+        }
+      ]
+    },
+    {
+      "id": "stanford-cs",
+      "university": "Stanford University",
+      "program": "Computer Science",
+      "faculty": "School of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Стэнфорд, Калифорния",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 62000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Need-based помощь для семей с низким доходом — обучение может быть бесплатным",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1520
+        },
+        {
+          "type": "AP",
+          "minScore": 4.5
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-05",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://stanford.edu",
+      "isDemoData": true,
+      "highlights": [
+        "В сердце Кремниевой долины",
+        "Сильнейшие связи со стартап-индустрией",
+        "Крайне высокий конкурс"
+      ],
+      "prestigeTag": "Топ мирового уровня (демо-ориентир)",
+      "acceptanceRatePercent": 4,
+      "studentPopulation": 7800,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Symbolic Systems",
+        "Electrical Engineering",
+        "Management Science & Engineering",
+        "Computer Science",
+        "Cloud Computing",
+        "IT-менеджмент",
+        "Business Informatics",
+        "Компьютерные сети",
+        "Data Science"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Common App / Coalition App",
+      "applicationRounds": [
+        {
+          "type": "REA",
+          "deadline": "2026-11-01",
+          "note": "Ранний раунд — ограничивает подачу в другие приватные вузы США тем же циклом"
+        },
+        {
+          "type": "RD",
+          "deadline": "2027-01-05"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Stanford University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Need-based помощь для семей с низким доходом — обучение может быть бесплатным"
+        }
+      ]
+    },
+    {
+      "id": "berkeley-eecs",
+      "university": "UC Berkeley",
+      "program": "EECS (Electrical Engineering & CS)",
+      "faculty": "College of Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Беркли, Калифорния",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 55000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Отдельные стипендии для международных студентов, конкурс высокий",
+      "academicExams": [
+        {
+          "type": "AP",
+          "minScore": 4.0
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-05",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://berkeley.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших инженерных вузов мира",
+        "Крупная выпускная сеть в tech-индустрии",
+        "Большой кампус"
+      ],
+      "acceptanceRatePercent": 11,
+      "studentPopulation": 33000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Data Science",
+        "Electrical Engineering",
+        "Applied Math",
+        "Информационные системы",
+        "Computer Engineering",
+        "Мобильная разработка",
+        "Mechanical Engineering",
+        "Bioinformatics",
+        "Machine Learning"
+      ],
+      "essayPrompt": "Опишите событие или осознание, которое запустило период личностного роста и изменило то, как вы видите себя или окружающих.",
+      "officialPortal": "UC Application",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-05"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант UC Berkeley",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Отдельные стипендии для международных студентов, конкурс высокий"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "cmu-cs",
+      "university": "Carnegie Mellon University",
+      "program": "Computer Science",
+      "faculty": "School of Computer Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Питтсбург, Пенсильвания",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 60000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Need-based помощь, но конкурс на неё очень высокий",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1530
+        },
+        {
+          "type": "AP",
+          "minScore": 4.5
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-03",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://cmu.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Один из мировых лидеров по CS",
+        "Сильная программа по AI/ML",
+        "Очень высокий конкурс"
+      ],
+      "acceptanceRatePercent": 11,
+      "studentPopulation": 7000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Artificial Intelligence (BS)",
+        "Electrical & Computer Engineering",
+        "Human-Computer Interaction",
+        "Компьютерные сети",
+        "IT-менеджмент",
+        "Software Engineering",
+        "Computer Engineering",
+        "Artificial Intelligence",
+        "Game Development"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Common App",
+      "applicationRounds": [
+        {
+          "type": "ED",
+          "deadline": "2026-11-01",
+          "note": "Обязывающий ранний раунд"
+        },
+        {
+          "type": "RD",
+          "deadline": "2027-01-03"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Carnegie Mellon University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Need-based помощь, но конкурс на неё очень высокий"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "oxford-cs",
+      "university": "University of Oxford",
+      "program": "Computer Science",
+      "faculty": "Department of Computer Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BA/MEng)",
+      "country": "Великобритания",
+      "city": "Оксфорд",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3-4 года",
+      "tuitionPerYearUSD": 50000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Ограниченные стипендии для международных студентов (Reach Oxford и др.)",
+      "academicExams": [
+        {
+          "type": "A-LEVEL",
+          "minScore": 95
+        },
+        {
+          "type": "IB",
+          "minScore": 39
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2026-10-15",
+      "documentsDeadline": "2026-10-01",
+      "website": "https://ox.ac.uk",
+      "isDemoData": true,
+      "highlights": [
+        "Тьюториалы в малых группах",
+        "Мировая репутация",
+        "Ранний дедлайн (октябрь)"
+      ],
+      "acceptanceRatePercent": 9,
+      "studentPopulation": 12000,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Mathematics & Computer Science",
+        "Engineering Science",
+        "Computer Science & Philosophy",
+        "Информационные системы",
+        "Data Science",
+        "Компьютерные сети",
+        "Game Development",
+        "Cloud Computing",
+        "Computer Science"
+      ],
+      "essayPrompt": "Личное заявление (UCAS Personal Statement): почему именно этот предмет, что вы уже сделали для его изучения вне школьной программы, и как видите его в своём будущем.",
+      "officialPortal": "UCAS",
+      "applicationRounds": [
+        {
+          "type": "UCAS",
+          "deadline": "2026-10-15",
+          "note": "Единый дедлайн UCAS для Oxbridge/большинства курсов с высоким конкурсом"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Oxford",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Ограниченные стипендии для международных студентов (Reach Oxford и др.)"
+        }
+      ],
+      "prestigeTag": "Крайне высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "cambridge-eng",
+      "university": "University of Cambridge",
+      "program": "Engineering",
+      "faculty": "Department of Engineering",
+      "direction": [
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (MEng)",
+      "country": "Великобритания",
+      "city": "Кембридж",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 52000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Стипендии колледжей для сильных абитуриентов",
+      "academicExams": [
+        {
+          "type": "A-LEVEL",
+          "minScore": 95
+        },
+        {
+          "type": "IB",
+          "minScore": 40
+        }
+      ],
+      "ieltsMin": 7.5,
+      "toeflMin": 100,
+      "applicationDeadline": "2026-10-15",
+      "documentsDeadline": "2026-10-01",
+      "website": "https://cam.ac.uk",
+      "isDemoData": true,
+      "highlights": [
+        "Широкий инженерный фундамент первые 2 года",
+        "Коллегиальная система",
+        "Ранний дедлайн (октябрь)"
+      ],
+      "acceptanceRatePercent": 21,
+      "studentPopulation": 12500,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Computer Science",
+        "Chemical Engineering",
+        "Manufacturing Engineering",
+        "Нефтегазовая инженерия",
+        "Химическая инженерия",
+        "Горное дело",
+        "Aerospace Engineering",
+        "Транспортные системы",
+        "Автоматизация производства"
+      ],
+      "essayPrompt": "Личное заявление (UCAS Personal Statement): почему именно этот предмет, что вы уже сделали для его изучения вне школьной программы, и как видите его в своём будущем.",
+      "officialPortal": "UCAS",
+      "applicationRounds": [
+        {
+          "type": "UCAS",
+          "deadline": "2026-10-15",
+          "note": "Единый дедлайн UCAS для Oxbridge/большинства курсов с высоким конкурсом"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Cambridge",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Стипендии колледжей для сильных абитуриентов"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "imperial-computing",
+      "university": "Imperial College London",
+      "program": "Computing",
+      "faculty": "Department of Computing",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BEng/MEng)",
+      "country": "Великобритания",
+      "city": "Лондон",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3-4 года",
+      "tuitionPerYearUSD": 45000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Стипендии President's Scholarship для выдающихся абитуриентов",
+      "academicExams": [
+        {
+          "type": "A-LEVEL",
+          "minScore": 88
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 95,
+      "applicationDeadline": "2027-01-25",
+      "documentsDeadline": "2027-01-10",
+      "website": "https://imperial.ac.uk",
+      "isDemoData": true,
+      "highlights": [
+        "В центре Лондона, рядом с tech-индустрией",
+        "Сильная связь с индустрией",
+        "Практико-ориентированная программа"
+      ],
+      "acceptanceRatePercent": 14,
+      "studentPopulation": 9500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Joint Maths & Computer Science",
+        "Electrical & Electronic Engineering",
+        "Design Engineering",
+        "Компьютерные сети",
+        "UX/UI Design & HCI",
+        "Computer Engineering",
+        "Business Informatics",
+        "Artificial Intelligence",
+        "Data Science"
+      ],
+      "essayPrompt": "Личное заявление (UCAS Personal Statement): почему именно этот предмет, что вы уже сделали для его изучения вне школьной программы, и как видите его в своём будущем.",
+      "officialPortal": "UCAS",
+      "applicationRounds": [
+        {
+          "type": "UCAS",
+          "deadline": "2027-01-25",
+          "note": "Единый дедлайн UCAS для Oxbridge/большинства курсов с высоким конкурсом"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Imperial College London",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Стипендии President's Scholarship для выдающихся абитуриентов"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "toronto-cs",
+      "university": "University of Toronto",
+      "program": "Computer Science",
+      "faculty": "Faculty of Arts & Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Канада",
+      "city": "Торонто",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 45000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Ограниченные стипендии для международных студентов (Lester B. Pearson)",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1450
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2027-01-01",
+      "website": "https://utoronto.ca",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших CS-вузов Канады",
+        "Крупный international-кампус",
+        "Хорошие связи с tech-индустрией"
+      ],
+      "acceptanceRatePercent": 34,
+      "studentPopulation": 24000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Data Science",
+        "Electrical & Computer Engineering",
+        "Statistics",
+        "Computer Science",
+        "Artificial Intelligence",
+        "Computer Engineering",
+        "Software Engineering",
+        "Компьютерные сети",
+        "Business Informatics"
+      ],
+      "essayPrompt": "Опишите событие или осознание, которое запустило период личностного роста и изменило то, как вы видите себя или окружающих.",
+      "officialPortal": "OUAC (Канада)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Toronto",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Ограниченные стипендии для международных студентов (Lester B. Pearson)"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-se",
+      "university": "University of Waterloo",
+      "program": "Software Engineering",
+      "faculty": "Faculty of Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BASc)",
+      "country": "Канада",
+      "city": "Ватерлоо",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "5 лет (с co-op стажировками)",
+      "tuitionPerYearUSD": 40000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Entrance-стипендии для сильных абитуриентов по среднему баллу",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1400
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-02-01",
+      "documentsDeadline": "2027-01-15",
+      "website": "https://uwaterloo.ca",
+      "isDemoData": true,
+      "highlights": [
+        "Известная co-op программа (оплачиваемые стажировки)",
+        "Сильные связи с tech-компаниями",
+        "Практико-ориентированное обучение"
+      ],
+      "acceptanceRatePercent": 17,
+      "studentPopulation": 22000,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Computer Science (Co-op)",
+        "Mechatronics Engineering",
+        "Computer Engineering",
+        "Game Development",
+        "Автоматизация производства",
+        "Electrical Engineering",
+        "Artificial Intelligence",
+        "Aerospace Engineering",
+        "Biomedical Engineering"
+      ],
+      "essayPrompt": "Опишите событие или осознание, которое запустило период личностного роста и изменило то, как вы видите себя или окружающих.",
+      "officialPortal": "OUAC (Канада)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-02-01"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Waterloo",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Entrance-стипендии для сильных абитуриентов по среднему баллу"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "tum-informatics",
+      "university": "Technical University of Munich",
+      "program": "Informatics",
+      "faculty": "School of Computation, Information and Technology",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Германия",
+      "city": "Мюнхен",
+      "languageOfInstruction": [
+        "Английский",
+        "Немецкий"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 3000,
+      "costTier": "low",
+      "grantAvailable": false,
+      "grantNote": "Госвузы Германии почти без платы за обучение — основные расходы на проживание",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 32
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 75
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-05-31",
+      "documentsDeadline": "2027-04-30",
+      "website": "https://tum.de",
+      "isDemoData": true,
+      "highlights": [
+        "Символическая плата за обучение",
+        "Сильная инженерная репутация",
+        "Растущий tech-хаб Мюнхена"
+      ],
+      "acceptanceRatePercent": 45,
+      "studentPopulation": 11000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Information Engineering",
+        "Electrical & Computer Engineering",
+        "Data Engineering & Analytics",
+        "UX/UI Design & HCI",
+        "Machine Learning",
+        "Cloud Computing",
+        "Data Science",
+        "Мобильная разработка",
+        "Кибербезопасность"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "TUMonline / uni-assist",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-05-31"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": []
+    },
+    {
+      "id": "rwth-cs",
+      "university": "RWTH Aachen University",
+      "program": "Computer Science",
+      "faculty": "Faculty of Mathematics, Computer Science and Natural Sciences",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Германия",
+      "city": "Ахен",
+      "languageOfInstruction": [
+        "Немецкий",
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 3500,
+      "costTier": "low",
+      "grantAvailable": false,
+      "grantNote": "Минимальная семестровая плата, основные расходы — проживание",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 30
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 70
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-07-15",
+      "documentsDeadline": "2027-06-15",
+      "website": "https://rwth-aachen.de",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших технических вузов Европы",
+        "Очень доступная стоимость",
+        "Требуется часто немецкий язык на части курсов"
+      ],
+      "acceptanceRatePercent": 55,
+      "studentPopulation": 9500,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Software Systems Engineering",
+        "Electrical Engineering",
+        "Data Science",
+        "IT-менеджмент",
+        "Cloud Computing",
+        "Software Engineering",
+        "UX/UI Design & HCI",
+        "Game Development",
+        "Мобильная разработка"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "RWTHonline / uni-assist",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-07-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": []
+    },
+    {
+      "id": "delft-cs",
+      "university": "TU Delft",
+      "program": "Computer Science and Engineering",
+      "faculty": "Faculty of EEMCS",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Нидерланды",
+      "city": "Делфт",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 18500,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Ограниченные Holland Scholarship для стран вне ЕС",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 34
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 80
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-04-15",
+      "documentsDeadline": "2027-03-15",
+      "website": "https://tudelft.nl",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших технических вузов Европы",
+        "Полностью на английском",
+        "Компактный студенческий город"
+      ],
+      "acceptanceRatePercent": 30,
+      "studentPopulation": 6000,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Applied Mathematics",
+        "Systems Engineering",
+        "Горное дело",
+        "Транспортные системы",
+        "Computer Engineering",
+        "UX/UI Design & HCI",
+        "Мехатроника",
+        "Мобильная разработка"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Studielink",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-04-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант TU Delft",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Ограниченные Holland Scholarship для стран вне ЕС"
+        }
+      ]
+    },
+    {
+      "id": "uva-ai",
+      "university": "University of Amsterdam",
+      "program": "Artificial Intelligence",
+      "faculty": "Faculty of Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Нидерланды",
+      "city": "Амстердам",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 17500,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Amsterdam Merit Scholarship для сильных абитуриентов вне ЕС",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 32
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 75
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-05-01",
+      "documentsDeadline": "2027-04-01",
+      "website": "https://uva.nl",
+      "isDemoData": true,
+      "highlights": [
+        "Одна из первых программ бакалавриата по AI в Европе",
+        "Крупный международный студенческий город",
+        "Сильная исследовательская база"
+      ],
+      "acceptanceRatePercent": 28,
+      "studentPopulation": 3500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Computer Science",
+        "Information Science",
+        "Data Science",
+        "Кибербезопасность",
+        "Компьютерные сети",
+        "Business Informatics",
+        "Информационные системы",
+        "Software Engineering",
+        "Computer Engineering"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Studielink",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-05-01"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Amsterdam",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Amsterdam Merit Scholarship для сильных абитуриентов вне ЕС"
+        }
+      ]
+    },
+    {
+      "id": "nus-cs",
+      "university": "National University of Singapore",
+      "program": "Computer Science",
+      "faculty": "School of Computing",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BComp)",
+      "country": "Сингапур",
+      "city": "Сингапур",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 30000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Tuition Grant Сингапура снижает стоимость при обязательстве работать в стране 3 года",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1500
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 92,
+      "applicationDeadline": "2027-03-01",
+      "documentsDeadline": "2027-02-01",
+      "website": "https://nus.edu.sg",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый CS-вуз Азии",
+        "Сильные связи с tech-индустрией региона",
+        "Компактная безопасная страна"
+      ],
+      "acceptanceRatePercent": 19,
+      "studentPopulation": 8500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Computer Engineering",
+        "Information Systems",
+        "Business Analytics",
+        "Game Development",
+        "Мобильная разработка",
+        "Bioinformatics",
+        "Компьютерные сети",
+        "Computer Science",
+        "UX/UI Design & HCI"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал NUS Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-03-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант National University of Singapore",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Tuition Grant Сингапура снижает стоимость при обязательстве работать в стране 3 года"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "ntu-ce",
+      "university": "Nanyang Technological University",
+      "program": "Computer Engineering",
+      "faculty": "College of Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BEng)",
+      "country": "Сингапур",
+      "city": "Сингапур",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 28000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Tuition Grant при обязательстве по трудоустройству в Сингапуре",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1450
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-03-01",
+      "documentsDeadline": "2027-02-01",
+      "website": "https://ntu.edu.sg",
+      "isDemoData": true,
+      "highlights": [
+        "Сильная инженерная школа",
+        "Современный кампус",
+        "Плотные связи с индустрией региона"
+      ],
+      "acceptanceRatePercent": 23,
+      "studentPopulation": 7500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Computer Science",
+        "Data Science & AI",
+        "Electrical & Electronic Engineering",
+        "Mechanical Engineering",
+        "Химическая инженерия",
+        "Компьютерные сети",
+        "Software Engineering",
+        "Мобильная разработка",
+        "Business Informatics"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал NTU Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-03-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Nanyang Technological University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Tuition Grant при обязательстве по трудоустройству в Сингапуре"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "kaist-cs",
+      "university": "KAIST",
+      "program": "Computer Science",
+      "faculty": "School of Computing",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Южная Корея",
+      "city": "Тэджон",
+      "languageOfInstruction": [
+        "Английский",
+        "Корейский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 8000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Большинство международных студентов получают стипендию, покрывающую обучение",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1450
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2026-12-15",
+      "website": "https://kaist.ac.kr",
+      "isDemoData": true,
+      "highlights": [
+        "Полностью англоязычные курсы на первых курсах",
+        "Топовый технический вуз Азии",
+        "Щедрые стипендии для иностранцев"
+      ],
+      "acceptanceRatePercent": 9,
+      "studentPopulation": 4200,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Industrial & Systems Engineering",
+        "AI",
+        "Computer Engineering",
+        "Bioinformatics",
+        "Компьютерные сети",
+        "Software Engineering",
+        "IT-менеджмент",
+        "Game Development"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Портал KAIST Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант KAIST",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Большинство международных студентов получают стипендию, покрывающую обучение"
+        }
+      ],
+      "prestigeTag": "Крайне высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "snu-cse",
+      "university": "Seoul National University",
+      "program": "Computer Science and Engineering",
+      "faculty": "College of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Южная Корея",
+      "city": "Сеул",
+      "languageOfInstruction": [
+        "Корейский",
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 7000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Government Scholarship Program (GKS) для иностранных студентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1400
+        },
+        {
+          "type": "IB",
+          "minScore": 34
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 85,
+      "applicationDeadline": "2027-01-10",
+      "documentsDeadline": "2026-12-10",
+      "website": "https://snu.ac.kr",
+      "isDemoData": true,
+      "highlights": [
+        "Один из лучших вузов Азии",
+        "Крупный студенческий город",
+        "Часть курсов требует корейский язык"
+      ],
+      "acceptanceRatePercent": 13,
+      "studentPopulation": 5000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical & Computer Engineering",
+        "Data Science",
+        "AI",
+        "Game Development",
+        "Artificial Intelligence",
+        "Computer Engineering",
+        "Business Informatics",
+        "Cloud Computing",
+        "Компьютерные сети"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Портал SNU Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-10"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Seoul National University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Government Scholarship Program (GKS) для иностранных студентов"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "utokyo-is",
+      "university": "University of Tokyo",
+      "program": "Information Science and Technology",
+      "faculty": "Faculty of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Япония",
+      "city": "Токио",
+      "languageOfInstruction": [
+        "Японский",
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 6000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "MEXT Scholarship для иностранных студентов покрывает обучение и стипендию",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 34
+        },
+        {
+          "type": "SAT",
+          "minScore": 1400
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-02-01",
+      "documentsDeadline": "2027-01-01",
+      "website": "https://u-tokyo.ac.jp",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый вуз Японии",
+        "Очень доступная стоимость",
+        "Часть программ требует японский язык"
+      ],
+      "acceptanceRatePercent": 31,
+      "studentPopulation": 5800,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Mathematical Engineering",
+        "Mechano-Informatics",
+        "Кибербезопасность",
+        "Business Informatics",
+        "Cloud Computing",
+        "IT-менеджмент",
+        "Artificial Intelligence",
+        "Software Engineering"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал UTokyo Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-02-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Tokyo",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "MEXT Scholarship для иностранных студентов покрывает обучение и стипендию"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-cs",
+      "university": "University of Melbourne",
+      "program": "Computer Science",
+      "faculty": "Faculty of Engineering and IT",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Австралия",
+      "city": "Мельбурн",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 38000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Melbourne Global Scholars Award для сильных международных абитуриентов",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 36
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 85
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2026-12-15",
+      "documentsDeadline": "2026-11-15",
+      "website": "https://unimelb.edu.au",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый вуз Австралии",
+        "Учебный год начинается в феврале",
+        "Сильная поддержка международных студентов"
+      ],
+      "acceptanceRatePercent": 70,
+      "studentPopulation": 15000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Data Science",
+        "Software Engineering",
+        "Mechatronics",
+        "Computer Engineering",
+        "Computer Science",
+        "Machine Learning",
+        "Кибербезопасность",
+        "Компьютерные сети",
+        "Информационные системы"
+      ],
+      "essayPrompt": "Опишите событие или осознание, которое запустило период личностного роста и изменило то, как вы видите себя или окружающих.",
+      "officialPortal": "Портал вуза / VTAC",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2026-12-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Melbourne",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Melbourne Global Scholars Award для сильных международных абитуриентов"
+        }
+      ]
+    },
+    {
+      "id": "unsw-ce",
+      "university": "UNSW Sydney",
+      "program": "Computer Engineering",
+      "faculty": "Faculty of Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BEng)",
+      "country": "Австралия",
+      "city": "Сидней",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 35000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "International Scholarships по академическим результатам",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 34
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 80
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2026-12-01",
+      "documentsDeadline": "2026-11-01",
+      "website": "https://unsw.edu.au",
+      "isDemoData": true,
+      "highlights": [
+        "Сильная инженерная школа",
+        "Кампус рядом с tech-индустрией Сиднея",
+        "Практико-ориентированные курсы"
+      ],
+      "acceptanceRatePercent": 75,
+      "studentPopulation": 14000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Computer Science",
+        "Electrical Engineering",
+        "Robotics",
+        "Нефтегазовая инженерия",
+        "Транспортные системы",
+        "Гражданское строительство",
+        "Software Engineering",
+        "Возобновляемая энергетика",
+        "IT-менеджмент"
+      ],
+      "essayPrompt": "Опишите событие или осознание, которое запустило период личностного роста и изменило то, как вы видите себя или окружающих.",
+      "officialPortal": "Портал вуза / UAC",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2026-12-01"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант UNSW Sydney",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "International Scholarships по академическим результатам"
+        }
+      ]
+    },
+    {
+      "id": "khalifa-cs",
+      "university": "Khalifa University",
+      "program": "Computer Science",
+      "faculty": "College of Computing and Mathematical Sciences",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "ОАЭ",
+      "city": "Абу-Даби",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 20000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Значительная часть студентов получает полные или частичные стипендии",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1350
+        },
+        {
+          "type": "IB",
+          "minScore": 32
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-03-01",
+      "documentsDeadline": "2027-02-01",
+      "website": "https://ku.ac.ae",
+      "isDemoData": true,
+      "highlights": [
+        "Быстрорастущий научный центр ОАЭ",
+        "Современный кампус",
+        "Щедрая стипендиальная политика"
+      ],
+      "acceptanceRatePercent": 35,
+      "studentPopulation": 2800,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Aerospace Engineering",
+        "Data Science",
+        "Cloud Computing",
+        "Информационные системы",
+        "Computer Science",
+        "Machine Learning",
+        "Computer Engineering",
+        "Software Engineering"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал Khalifa University",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-03-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Khalifa University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Значительная часть студентов получает полные или частичные стипендии"
+        }
+      ]
+    },
+    {
+      "id": "nyuad-cs",
+      "university": "NYU Abu Dhabi",
+      "program": "Computer Science",
+      "faculty": "Division of Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "ОАЭ",
+      "city": "Абу-Даби",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 60000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "NYU Abu Dhabi заявляет need-blind приём с полным покрытием потребности",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1480
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-01",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://nyuad.nyu.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Часть глобальной сети NYU",
+        "Крайне щедрая финансовая помощь",
+        "Маленькие группы, высокий конкурс"
+      ],
+      "acceptanceRatePercent": 5,
+      "studentPopulation": 2300,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Interactive Media",
+        "Math & CS",
+        "Компьютерные сети",
+        "Machine Learning",
+        "Business Informatics",
+        "Cloud Computing",
+        "Computer Engineering",
+        "Информационные системы"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Common App",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант NYU Abu Dhabi",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "NYU Abu Dhabi заявляет need-blind приём с полным покрытием потребности"
+        }
+      ],
+      "prestigeTag": "Крайне высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "metu-ce",
+      "university": "Middle East Technical University (METU)",
+      "program": "Computer Engineering",
+      "faculty": "Faculty of Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Турция",
+      "city": "Анкара",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 6000,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Стипендии для международных студентов с высоким SAT/IB",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1300
+        },
+        {
+          "type": "IB",
+          "minScore": 30
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-07-01",
+      "documentsDeadline": "2027-06-01",
+      "website": "https://metu.edu.tr",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших технических вузов Турции",
+        "Полностью на английском",
+        "Доступная стоимость"
+      ],
+      "acceptanceRatePercent": 28,
+      "studentPopulation": 27000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical & Electronics Engineering",
+        "Industrial Engineering",
+        "Data Science",
+        "Computer Engineering",
+        "Кибербезопасность",
+        "Информационные системы",
+        "Cloud Computing",
+        "Biomedical Engineering",
+        "Aerospace Engineering"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза (Int'l Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-07-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Middle East Technical University (METU)",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Стипендии для международных студентов с высоким SAT/IB"
+        }
+      ]
+    },
+    {
+      "id": "bilkent-ce",
+      "university": "Bilkent University",
+      "program": "Computer Engineering",
+      "faculty": "Faculty of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Турция",
+      "city": "Анкара",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 14000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Bilkent предоставляет широкий спектр стипендий, покрывающих полностью или частично обучение",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1250
+        },
+        {
+          "type": "IB",
+          "minScore": 28
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-06-15",
+      "documentsDeadline": "2027-05-15",
+      "website": "https://bilkent.edu.tr",
+      "isDemoData": true,
+      "highlights": [
+        "Первый частный вуз Турции",
+        "Много стипендий",
+        "Полностью на английском"
+      ],
+      "acceptanceRatePercent": 33,
+      "studentPopulation": 12500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical & Electronics Engineering",
+        "Industrial Engineering",
+        "Management Information Systems",
+        "Business Informatics",
+        "Cloud Computing",
+        "Data Science",
+        "Machine Learning",
+        "IT-менеджмент",
+        "UX/UI Design & HCI"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал вуза (Int'l Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-06-15"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Bilkent University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Bilkent предоставляет широкий спектр стипендий, покрывающих полностью или частично обучение"
+        }
+      ]
+    },
+    {
+      "id": "polytechnique-cs",
+      "university": "École Polytechnique",
+      "program": "Computer Science",
+      "faculty": "Bachelor's Programme",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Франция",
+      "city": "Палезо (Париж)",
+      "languageOfInstruction": [
+        "Английский",
+        "Французский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 15000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Need-based и merit-based стипендии École Polytechnique",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 38
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 90
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2026-12-15",
+      "website": "https://polytechnique.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Элитная французская инженерная школа",
+        "Малые группы",
+        "Сильная математическая подготовка"
+      ],
+      "acceptanceRatePercent": 18,
+      "studentPopulation": 3400,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Data Science",
+        "Applied Mathematics",
+        "Energy & Environment",
+        "Software Engineering",
+        "Информационные системы",
+        "Computer Engineering",
+        "IT-менеджмент",
+        "Computer Science",
+        "Мобильная разработка"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Портал École Polytechnique",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант École Polytechnique",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Need-based и merit-based стипендии École Polytechnique"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "ethz-cs",
+      "university": "ETH Zurich",
+      "program": "Computer Science",
+      "faculty": "Department of Computer Science",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Швейцария",
+      "city": "Цюрих",
+      "languageOfInstruction": [
+        "Немецкий",
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 1500,
+      "costTier": "low",
+      "grantAvailable": false,
+      "grantNote": "Символическая плата за обучение — расходы в основном на проживание в Цюрихе",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 36
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 85
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-04-30",
+      "documentsDeadline": "2027-03-31",
+      "website": "https://ethz.ch",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших технических вузов мира",
+        "Крайне низкая плата за обучение",
+        "Первый курс часто на немецком"
+      ],
+      "acceptanceRatePercent": 27,
+      "studentPopulation": 24000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering & IT",
+        "Data Science",
+        "Mathematics",
+        "IT-менеджмент",
+        "Business Informatics",
+        "Компьютерные сети",
+        "UX/UI Design & HCI",
+        "Game Development",
+        "Computer Engineering"
+      ],
+      "essayPrompt": "Опишите техническую идею или проект, за которым вы готовы наблюдать часами — почему именно она вас увлекает и как вы в ней разобрались.",
+      "officialPortal": "Портал ETH Zurich",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-04-30"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": []
+    },
+    {
+      "id": "hkust-cs",
+      "university": "HKUST (Hong Kong University of Science and Technology)",
+      "program": "Computer Science",
+      "faculty": "School of Engineering",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BEng)",
+      "country": "Гонконг",
+      "city": "Гонконг",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 20000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Entrance Scholarships для сильных международных абитуриентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1450
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-06",
+      "documentsDeadline": "2026-12-01",
+      "website": "https://hkust.edu.hk",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый технический вуз Азии",
+        "Полностью на английском",
+        "Плотные связи с tech-индустрией"
+      ],
+      "acceptanceRatePercent": 16,
+      "studentPopulation": 11000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Data Science & Technology",
+        "Electronic & Computer Engineering",
+        "AI",
+        "Data Science",
+        "Computer Science",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Bioinformatics",
+        "UX/UI Design & HCI"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал HKUST Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-06"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант HKUST (Hong Kong University of Science and Technology)",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Entrance Scholarships для сильных международных абитуриентов"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "tsinghua-cs",
+      "university": "Tsinghua University",
+      "program": "Computer Science",
+      "faculty": "Department of Computer Science and Technology",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Китай",
+      "city": "Пекин",
+      "languageOfInstruction": [
+        "Китайский",
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 5000,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Chinese Government Scholarship для сильных международных абитуриентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1450
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-03-01",
+      "documentsDeadline": "2027-02-01",
+      "website": "https://tsinghua.edu.cn",
+      "isDemoData": true,
+      "highlights": [
+        "Один из лучших вузов Азии",
+        "Доступная стоимость",
+        "Часть программ требует китайский язык"
+      ],
+      "acceptanceRatePercent": 7,
+      "studentPopulation": 17000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electronic Engineering",
+        "AI",
+        "Data Science",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "UX/UI Design & HCI",
+        "Bioinformatics",
+        "Кибербезопасность",
+        "Computer Engineering"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал CSC / Tsinghua Admissions",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-03-01"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Tsinghua University",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Chinese Government Scholarship для сильных международных абитуриентов"
+        }
+      ],
+      "prestigeTag": "Крайне высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "um-cs",
+      "university": "University of Malaya",
+      "program": "Computer Science",
+      "faculty": "Faculty of Computer Science and IT",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BCS)",
+      "country": "Малайзия",
+      "city": "Куала-Лумпур",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3-4 года",
+      "tuitionPerYearUSD": 6000,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Ограниченные стипендии Malaysian International Scholarship",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 30
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 70
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-05-01",
+      "documentsDeadline": "2027-04-01",
+      "website": "https://um.edu.my",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый вуз Юго-Восточной Азии",
+        "Очень доступная стоимость",
+        "Комфортный вход для международных студентов"
+      ],
+      "acceptanceRatePercent": 45,
+      "studentPopulation": 26000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Software Engineering",
+        "Artificial Intelligence",
+        "Information Systems",
+        "Cloud Computing",
+        "Computer Engineering",
+        "Business Informatics",
+        "Информационные системы",
+        "Мобильная разработка",
+        "Computer Science"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал University of Malaya",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-05-01"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант University of Malaya",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Ограниченные стипендии Malaysian International Scholarship"
+        }
+      ]
+    },
+    {
+      "id": "kth-cs",
+      "university": "KTH Royal Institute of Technology",
+      "program": "Computer Science",
+      "faculty": "School of EECS",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Швеция",
+      "city": "Стокгольм",
+      "languageOfInstruction": [
+        "Английский",
+        "Шведский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 22000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "KTH Opportunity Scholarships для сильных абитуриентов вне ЕС",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 32
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 75
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2027-01-15",
+      "website": "https://kth.se",
+      "isDemoData": true,
+      "highlights": [
+        "Топовый технический вуз Северной Европы",
+        "Высокий уровень жизни",
+        "Сильная связь с tech-индустрией Стокгольма"
+      ],
+      "acceptanceRatePercent": 25,
+      "studentPopulation": 13000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Information & Communication Technology",
+        "Industrial Engineering",
+        "Data Science",
+        "Computer Engineering",
+        "Мобильная разработка",
+        "Computer Science",
+        "Информационные системы",
+        "UX/UI Design & HCI"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Universityadmissions.se",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант KTH Royal Institute of Technology",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "KTH Opportunity Scholarships для сильных абитуриентов вне ЕС"
+        }
+      ],
+      "prestigeTag": "Высокий конкурс (демо-ориентир)"
+    },
+    {
+      "id": "polimi-ce",
+      "university": "Politecnico di Milano",
+      "program": "Computer Engineering",
+      "faculty": "School of Industrial and Information Engineering",
+      "direction": [
+        "IT",
+        "Engineering"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Италия",
+      "city": "Милан",
+      "languageOfInstruction": [
+        "Английский",
+        "Итальянский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 4000,
+      "costTier": "low",
+      "grantAvailable": true,
+      "grantNote": "Плата зависит от дохода семьи (ISEE) — может быть значительно ниже",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 30
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 70
+        }
+      ],
+      "ieltsMin": 6.0,
+      "toeflMin": 78,
+      "applicationDeadline": "2027-07-20",
+      "documentsDeadline": "2027-06-20",
+      "website": "https://polimi.it",
+      "isDemoData": true,
+      "highlights": [
+        "Один из сильнейших технических вузов Европы",
+        "Доступная стоимость",
+        "Крупный дизайн- и tech-хаб Милана"
+      ],
+      "acceptanceRatePercent": 50,
+      "studentPopulation": 45000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electronics Engineering",
+        "Mathematical Engineering",
+        "Automation Engineering",
+        "Aerospace Engineering",
+        "Game Development",
+        "Мобильная разработка",
+        "Возобновляемая энергетика",
+        "Artificial Intelligence",
+        "Электроэнергетика"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал POLIMI (тест TOL при поступлении)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-07-20"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Стипендия/грант Politecnico di Milano",
+          "coverage": "покрытие уточняется индивидуально по итогам конкурса",
+          "note": "Плата зависит от дохода семьи (ISEE) — может быть значительно ниже"
+        }
+      ]
+    },
+    {
+      "id": "ctu-cs",
+      "university": "Czech Technical University in Prague",
+      "program": "Computer Science",
+      "faculty": "Faculty of Information Technology",
+      "direction": [
+        "IT"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Чехия",
+      "city": "Прага",
+      "languageOfInstruction": [
+        "Английский",
+        "Чешский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 5000,
+      "costTier": "low",
+      "grantAvailable": false,
+      "grantNote": "Программы на чешском языке часто бесплатны, на английском — платные",
+      "academicExams": [
+        {
+          "type": "IB",
+          "minScore": 28
+        },
+        {
+          "type": "A-LEVEL",
+          "minScore": 65
+        }
+      ],
+      "ieltsMin": 5.5,
+      "toeflMin": 75,
+      "applicationDeadline": "2027-02-28",
+      "documentsDeadline": "2027-01-31",
+      "website": "https://cvut.cz",
+      "isDemoData": true,
+      "highlights": [
+        "Очень доступная стоимость",
+        "Растущий tech-хаб Праги",
+        "Невысокий порог по языку"
+      ],
+      "acceptanceRatePercent": 60,
+      "studentPopulation": 18000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Electrical Engineering",
+        "Cybernetics & Robotics",
+        "Software Engineering",
+        "Мобильная разработка",
+        "Computer Science",
+        "Кибербезопасность",
+        "IT-менеджмент",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "essayPrompt": "Почему именно эта программа и этот вуз — как они связаны с вашими целями в направлении и что вы уже сделали, чтобы к этому прийти.",
+      "officialPortal": "Портал CTU (вступительный тест)",
+      "applicationRounds": [
+        {
+          "type": "Rolling",
+          "deadline": "2027-02-28",
+          "note": "Приём по мере поступления заявок / результатов вступительных экзаменов"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": []
+    },
+    {
+      "id": "lse-econ",
+      "university": "London School of Economics",
+      "program": "Economics",
+      "faculty": "Department of Economics",
+      "direction": [
+        "Economics"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Великобритания",
+      "city": "Лондон",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 32000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "LSE Bursary покрывает часть стоимости для студентов с финансовыми потребностями",
+      "academicExams": [
+        {
+          "type": "A-LEVEL",
+          "minScore": 95
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2026-12-20",
+      "website": "https://www.lse.ac.uk",
+      "isDemoData": true,
+      "highlights": [
+        "Один из мировых лидеров в экономике",
+        "Сильные связи с Сити и инвестбанками",
+        "Насыщенная исследовательская среда"
+      ],
+      "acceptanceRatePercent": 9,
+      "studentPopulation": 12000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Econometrics",
+        "Politics and Economics",
+        "Economic History",
+        "Management",
+        "Finance"
+      ],
+      "essayPrompt": "Почему экономика и почему именно LSE — какие вопросы в экономике вас интересуют больше всего и почему.",
+      "officialPortal": "UCAS",
+      "applicationRounds": [
+        {
+          "type": "UCAS",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "LSE Bursary",
+          "coverage": "до полного покрытия обучения",
+          "note": "по результатам оценки финансовых потребностей"
+        }
+      ],
+      "prestigeTag": "Топ-3 мира по экономике (демо-ориентир)"
+    },
+    {
+      "id": "wharton-business",
+      "university": "University of Pennsylvania (Wharton)",
+      "program": "Business (Wharton School)",
+      "faculty": "The Wharton School",
+      "direction": [
+        "Business"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Филадельфия",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 66000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Need-based финансовая помощь Penn покрывает 100% доказанной потребности",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1500
+        },
+        {
+          "type": "ACT",
+          "minScore": 34
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-05",
+      "documentsDeadline": "2026-12-15",
+      "website": "https://www.wharton.upenn.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Одна из первых и сильнейших бизнес-школ мира",
+        "Мощная сеть выпускников в финансах и консалтинге",
+        "Двойные специализации внутри школы"
+      ],
+      "acceptanceRatePercent": 6,
+      "studentPopulation": 2600,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Finance",
+        "Marketing",
+        "Management",
+        "Entrepreneurship",
+        "Real Estate"
+      ],
+      "essayPrompt": "Расскажите о деловой идее или проблеме, которая вас увлекает, и как программа Wharton поможет её развить.",
+      "officialPortal": "Common App",
+      "applicationRounds": [
+        {
+          "type": "ED",
+          "deadline": "2026-11-01",
+          "note": "Early Decision — обязывающий"
+        },
+        {
+          "type": "RD",
+          "deadline": "2027-01-05"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Penn Financial Aid",
+          "coverage": "до 100% доказанной потребности",
+          "note": "без студенческих займов в пакете помощи"
+        }
+      ],
+      "prestigeTag": "Топ-1 бизнес-школа мира для бакалавриата (демо-ориентир)"
+    },
+    {
+      "id": "nus-business",
+      "university": "National University of Singapore",
+      "program": "Business Administration",
+      "faculty": "NUS Business School",
+      "direction": [
+        "Business"
+      ],
+      "degree": "Бакалавриат (BBA)",
+      "country": "Сингапур",
+      "city": "Сингапур",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 23000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Tuition Grant Сингапура снижает стоимость для иностранных студентов при обязательстве работать в стране",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1480
+        },
+        {
+          "type": "IB",
+          "minScore": 40
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 92,
+      "applicationDeadline": "2027-02-15",
+      "documentsDeadline": "2027-01-25",
+      "website": "https://www.nus.edu.sg",
+      "isDemoData": true,
+      "highlights": [
+        "Топ бизнес-школа Азии",
+        "Сильные связи с финтех- и торговым хабом Сингапура",
+        "Обмен с ведущими бизнес-школами мира"
+      ],
+      "acceptanceRatePercent": 12,
+      "studentPopulation": 3400,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Finance",
+        "Marketing",
+        "Accounting",
+        "Business Analytics",
+        "Entrepreneurship"
+      ],
+      "essayPrompt": "Опишите ситуацию, где вы проявили инициативу или лидерство в командном/бизнес-проекте.",
+      "officialPortal": "Портал вуза (NUS Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-02-15"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "NUS Merit Scholarship",
+          "coverage": "от частичного до полного покрытия",
+          "note": "по академическим результатам"
+        }
+      ],
+      "prestigeTag": "Топ бизнес-школа Азии (демо-ориентир)"
+    },
+    {
+      "id": "hec-business",
+      "university": "HEC Paris",
+      "program": "Business (Grande École Program)",
+      "faculty": "HEC Paris",
+      "direction": [
+        "Business"
+      ],
+      "degree": "Бакалавриат + магистратура (5 лет)",
+      "country": "Франция",
+      "city": "Жуи-ан-Жоза (Париж)",
+      "languageOfInstruction": [
+        "Английский",
+        "Французский"
+      ],
+      "duration": "5 лет (интегрированная программа)",
+      "tuitionPerYearUSD": 21000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Гранты HEC Paris покрывают до 100% для студентов с ограниченными финансовыми возможностями",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1400
+        },
+        {
+          "type": "IB",
+          "minScore": 36
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 90,
+      "applicationDeadline": "2027-01-10",
+      "documentsDeadline": "2026-12-10",
+      "website": "https://www.hec.edu",
+      "isDemoData": true,
+      "highlights": [
+        "Одна из ведущих бизнес-школ Европы",
+        "Сильная международная студенческая среда",
+        "Партнёрства с топ-компаниями для стажировок"
+      ],
+      "acceptanceRatePercent": 14,
+      "studentPopulation": 4500,
+      "campusSetting": "suburban",
+      "majorsOffered": [
+        "Finance",
+        "Strategy",
+        "Marketing",
+        "Entrepreneurship",
+        "International Business"
+      ],
+      "essayPrompt": "Почему международная бизнес-среда HEC Paris подходит именно вам и вашим карьерным целям.",
+      "officialPortal": "Портал вуза (HEC Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-10"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "HEC Foundation Scholarship",
+          "coverage": "до 100% стоимости обучения",
+          "note": "по результатам оценки потребностей и мотивационного эссе"
+        }
+      ],
+      "prestigeTag": "Топ бизнес-школа Европы (демо-ориентир)"
+    },
+    {
+      "id": "bocconi-econ",
+      "university": "Bocconi University",
+      "program": "Economics and Management",
+      "faculty": "Department of Economics",
+      "direction": [
+        "Economics"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Италия",
+      "city": "Милан",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 16000,
+      "costTier": "medium",
+      "grantAvailable": true,
+      "grantNote": "Bocconi for Merit и Bocconi for Talent покрывают до 100% на основе баллов/потребностей",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1400
+        },
+        {
+          "type": "IB",
+          "minScore": 34
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 88,
+      "applicationDeadline": "2027-01-20",
+      "documentsDeadline": "2026-12-20",
+      "website": "https://www.unibocconi.eu",
+      "isDemoData": true,
+      "highlights": [
+        "Ведущий экономический вуз континентальной Европы",
+        "Сильная математическая подготовка",
+        "Активная жизнь международного кампуса"
+      ],
+      "acceptanceRatePercent": 18,
+      "studentPopulation": 14000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Finance",
+        "Management",
+        "Politics and Policy Analysis",
+        "International Economics"
+      ],
+      "essayPrompt": "Какая экономическая или деловая проблема современности интересует вас больше всего и почему.",
+      "officialPortal": "Портал вуза (Bocconi Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-20"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "Bocconi for Merit",
+          "coverage": "до 100% стоимости обучения",
+          "note": "по академическим результатам и вступительному тесту"
+        }
+      ],
+      "prestigeTag": "Топ экономический вуз континентальной Европы (демо-ориентир)"
+    },
+    {
+      "id": "utoronto-econ",
+      "university": "University of Toronto",
+      "program": "Economics",
+      "faculty": "Faculty of Arts & Science",
+      "direction": [
+        "Economics"
+      ],
+      "degree": "Бакалавриат (BA)",
+      "country": "Канада",
+      "city": "Торонто",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 45000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Стипендии University of Toronto International Scholar Program для сильных международных абитуриентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1420
+        },
+        {
+          "type": "IB",
+          "minScore": 34
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 89,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2026-12-20",
+      "website": "https://www.utoronto.ca",
+      "isDemoData": true,
+      "highlights": [
+        "Крупнейший исследовательский университет Канады",
+        "Гибкая система курсов и специализаций",
+        "Доступ к сильному рынку труда Торонто"
+      ],
+      "acceptanceRatePercent": 33,
+      "studentPopulation": 21000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Finance",
+        "Political Science",
+        "Statistics",
+        "Data Science",
+        "Business (Rotman Commerce)"
+      ],
+      "essayPrompt": "Опишите, как ваш интерес к экономике проявлялся в учёбе или за её пределами.",
+      "officialPortal": "Портал вуза (OUAC)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Lester B. Pearson International Scholarship",
+          "coverage": "полное покрытие обучения и проживания",
+          "note": "крайне конкурентная, по академическим и лидерским достижениям"
+        }
+      ],
+      "prestigeTag": "Топ вуз Канады (демо-ориентир)"
+    },
+    {
+      "id": "unimelb-econ",
+      "university": "University of Melbourne",
+      "program": "Economics",
+      "faculty": "Faculty of Business and Economics",
+      "direction": [
+        "Economics"
+      ],
+      "degree": "Бакалавриат (BCom)",
+      "country": "Австралия",
+      "city": "Мельбурн",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 33000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Melbourne Global Scholars Award для сильных международных абитуриентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1350
+        },
+        {
+          "type": "IB",
+          "minScore": 33
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 79,
+      "applicationDeadline": "2026-12-01",
+      "documentsDeadline": "2026-11-10",
+      "website": "https://www.unimelb.edu.au",
+      "isDemoData": true,
+      "highlights": [
+        "Топ-1 вуз Австралии по большинству рейтингов",
+        "Гибкий Bachelor of Commerce с выбором специализации",
+        "Сильные связи с рынком труда Азиатско-Тихоокеанского региона"
+      ],
+      "acceptanceRatePercent": 40,
+      "studentPopulation": 7500,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Finance",
+        "Accounting",
+        "Management",
+        "Actuarial Studies",
+        "Marketing"
+      ],
+      "essayPrompt": null,
+      "officialPortal": "Портал вуза (Melbourne Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2026-12-01"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "Melbourne Global Scholars Award",
+          "coverage": "до 50% стоимости обучения",
+          "note": "по академическим результатам"
+        }
+      ],
+      "prestigeTag": "Топ-1 вуз Австралии (демо-ориентир)"
+    },
+    {
+      "id": "nyustern-finance",
+      "university": "New York University (Stern)",
+      "program": "Finance",
+      "faculty": "Stern School of Business",
+      "direction": [
+        "Finance"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "США",
+      "city": "Нью-Йорк",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 62000,
+      "costTier": "very-high",
+      "grantAvailable": true,
+      "grantNote": "Need-based финансовая помощь NYU, ограничена для международных студентов",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1480
+        },
+        {
+          "type": "ACT",
+          "minScore": 33
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-05",
+      "documentsDeadline": "2026-12-15",
+      "website": "https://www.stern.nyu.edu",
+      "isDemoData": true,
+      "highlights": [
+        "В самом сердце финансового района Манхэттена",
+        "Прямой доступ к стажировкам на Уолл-стрит",
+        "Сильная количественная подготовка"
+      ],
+      "acceptanceRatePercent": 8,
+      "studentPopulation": 2700,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Accounting",
+        "Business Analytics",
+        "Management",
+        "Real Estate Finance",
+        "Quantitative Finance"
+      ],
+      "essayPrompt": "Расскажите о финансовом рынке или инструменте, который вас заинтересовал, и почему.",
+      "officialPortal": "Common App",
+      "applicationRounds": [
+        {
+          "type": "ED",
+          "deadline": "2026-11-01",
+          "note": "Early Decision — обязывающий"
+        },
+        {
+          "type": "RD",
+          "deadline": "2027-01-05"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "NYU Wagner Scholarship",
+          "coverage": "от частичного до полного покрытия",
+          "note": "по академическим результатам"
+        }
+      ],
+      "prestigeTag": "Топ-3 финансовая программа мира для бакалавриата (демо-ориентир)"
+    },
+    {
+      "id": "lse-finance",
+      "university": "London School of Economics",
+      "program": "Accounting and Finance",
+      "faculty": "Department of Finance",
+      "direction": [
+        "Finance"
+      ],
+      "degree": "Бакалавриат (BSc)",
+      "country": "Великобритания",
+      "city": "Лондон",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "3 года",
+      "tuitionPerYearUSD": 32000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "LSE Bursary покрывает часть стоимости для студентов с финансовыми потребностями",
+      "academicExams": [
+        {
+          "type": "A-LEVEL",
+          "minScore": 95
+        },
+        {
+          "type": "IB",
+          "minScore": 38
+        }
+      ],
+      "ieltsMin": 7.0,
+      "toeflMin": 100,
+      "applicationDeadline": "2027-01-15",
+      "documentsDeadline": "2026-12-20",
+      "website": "https://www.lse.ac.uk",
+      "isDemoData": true,
+      "highlights": [
+        "Прямой доступ к финансовому центру Сити",
+        "Сильная математическая и статистическая база",
+        "Востребованные выпускники в инвестбанках и фондах"
+      ],
+      "acceptanceRatePercent": 7,
+      "studentPopulation": 12000,
+      "campusSetting": "urban",
+      "majorsOffered": [
+        "Economics",
+        "Management",
+        "Actuarial Science",
+        "Accounting"
+      ],
+      "essayPrompt": "Почему финансы — какой аспект работы финансовых рынков вам наиболее интересен.",
+      "officialPortal": "UCAS",
+      "applicationRounds": [
+        {
+          "type": "UCAS",
+          "deadline": "2027-01-15"
+        }
+      ],
+      "testPolicy": "not-considered",
+      "scholarships": [
+        {
+          "name": "LSE Bursary",
+          "coverage": "до полного покрытия обучения",
+          "note": "по результатам оценки финансовых потребностей"
+        }
+      ],
+      "prestigeTag": "Топ-3 мира по финансам (демо-ориентир)"
+    },
+    {
+      "id": "hkust-finance",
+      "university": "HKUST (Hong Kong University of Science and Technology)",
+      "program": "Business (Finance concentration)",
+      "faculty": "HKUST Business School",
+      "direction": [
+        "Finance",
+        "Business"
+      ],
+      "degree": "Бакалавриат (BBA)",
+      "country": "Гонконг",
+      "city": "Гонконг",
+      "languageOfInstruction": [
+        "Английский"
+      ],
+      "duration": "4 года",
+      "tuitionPerYearUSD": 21000,
+      "costTier": "high",
+      "grantAvailable": true,
+      "grantNote": "Entrance Scholarship для сильных международных абитуриентов, покрытие до 100%",
+      "academicExams": [
+        {
+          "type": "SAT",
+          "minScore": 1440
+        },
+        {
+          "type": "IB",
+          "minScore": 37
+        }
+      ],
+      "ieltsMin": 6.5,
+      "toeflMin": 80,
+      "applicationDeadline": "2027-01-06",
+      "documentsDeadline": "2026-12-10",
+      "website": "https://www.hkust.edu.hk",
+      "isDemoData": true,
+      "highlights": [
+        "Одна из ведущих бизнес-школ Азии",
+        "Связи с финансовым хабом Гонконга",
+        "Сильный количественный уклон в финансах"
+      ],
+      "acceptanceRatePercent": 15,
+      "studentPopulation": 3200,
+      "campusSetting": "campus-town",
+      "majorsOffered": [
+        "Economics",
+        "Accounting",
+        "Information Systems",
+        "Management",
+        "Marketing"
+      ],
+      "essayPrompt": "Опишите ситуацию, где количественный/аналитический подход помог вам принять решение.",
+      "officialPortal": "Портал вуза (HKUST Admissions)",
+      "applicationRounds": [
+        {
+          "type": "RD",
+          "deadline": "2027-01-06"
+        }
+      ],
+      "testPolicy": "optional",
+      "scholarships": [
+        {
+          "name": "HKUST Entrance Scholarship",
+          "coverage": "до 100% стоимости обучения",
+          "note": "по академическим результатам"
+        }
+      ],
+      "prestigeTag": "Топ бизнес-школа Азии (демо-ориентир)"
+    }
+  ]
+}
